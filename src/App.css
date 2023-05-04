@@ -2,6 +2,9 @@
   text-align: center;
 }
 
+.my-app {
+  background-image: linear-gradient(to right, #043070, #184092, #2e51b5, #4462d9, #5d73fd);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
