@@ -17,8 +17,8 @@ function Screen({ value }) {
     "name.parent": { value: null, matchMode: FilterMatchMode.STARTS_WITH },
     teachername: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
     number: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
-    feesbalance: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
-    totalfees: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
+    totalmark: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
+    markobtained: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
   });
   const [loading, setLoading] = useState(true);
   const [globalFilterValue, setGlobalFilterValue] = useState("");
